@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vegetable-lists-pwa-v1';
+const CACHE_NAME = 'vegetable-lists-pwa-v5';
 const urlsToCache = [
   '/',
   '/index.html',
