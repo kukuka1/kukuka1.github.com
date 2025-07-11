@@ -1,5 +1,5 @@
 let defaultLists = [
-  { date: "2025-07-11", vegetables: ["Помидор", "Broccoli", "Spinach", "Tomato", "Cucumber", "Pepper", "Onion", "Garlic", "Potato", "Lettuce"] },
+  { date: "2025-07-11", vegetables: ["Яблоко", "Broccoli", "Spinach", "Tomato", "Cucumber", "Pepper", "Onion", "Garlic", "Potato", "Lettuce"] },
   { date: "2025-07-11", vegetables: ["Carrot", "Broccoli", "Spinach", "Tomato", "Cucumber", "Pepper", "Onion", "Garlic", "Potato", "Lettuce"] },
   { date: "2025-07-11", vegetables: ["Carrot", "Broccoli", "Spinach", "Tomato", "Cucumber", "Pepper", "Onion", "Garlic", "Potato", "Lettuce"] },
   { date: "2025-07-11", vegetables: ["Carrot", "Broccoli", "Spinach", "Tomato", "Cucumber", "Pepper", "Onion", "Garlic", "Potato", "Lettuce"] },
