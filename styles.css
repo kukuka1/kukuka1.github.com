@@ -1,13 +1,13 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   gap: 10px;
   padding: 10px;
 }
 
 @media (orientation: landscape) {
   .grid-container {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -17,22 +17,39 @@
   border-radius: 5px;
 }
 
-.vegetables-list {
+.main-list, .extra-list {
   list-style: none;
   padding: 0;
 }
 
-.vegetables-list li {
+.main-list li, .extra-list li {
   margin-bottom: 5px;
-}
-
-.vegetable-name {
-  cursor: pointer;
   padding: 2px 5px;
-  border: 1fr;
-  border: 1px solid transparent;
+  cursor: pointer;
 }
 
-.vegetable-name:hover {
-  border: 1px solid #aaa;
+.main-list li:hover, .extra-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.extra-list li {
+  background-color: #e0e0e0;
+}
+
+.selected {
+  background-color: #d0d0d0 !important;
+}
+
+.list-actions {
+  margin-top: 10px;
+  display: none;
+}
+
+.list-actions.active {
+  display: block;
+}
+
+select, input[type="text"] {
+  margin-right: 5px;
+  padding: 5px;
 }
