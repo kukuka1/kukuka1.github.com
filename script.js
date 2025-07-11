@@ -1,5 +1,13 @@
 let defaultLists = [
   { date: "2025-07-11", vegetables: ["Carrot", "Broccoli", "Spinach", "Tomato", "Cucumber", "Pepper", "Onion", "Garlic", "Potato", "Lettuce"] },
+  { date: "2025-07-11", vegetables: ["Carrot", "Broccoli", "Spinach", "Tomato", "Cucumber", "Pepper", "Onion", "Garlic", "Potato", "Lettuce"] },
+  { date: "2025-07-11", vegetables: ["Carrot", "Broccoli", "Spinach", "Tomato", "Cucumber", "Pepper", "Onion", "Garlic", "Potato", "Lettuce"] },
+  { date: "2025-07-11", vegetables: ["Carrot", "Broccoli", "Spinach", "Tomato", "Cucumber", "Pepper", "Onion", "Garlic", "Potato", "Lettuce"] },
+  { date: "2025-07-11", vegetables: ["Carrot", "Broccoli", "Spinach", "Tomato", "Cucumber", "Pepper", "Onion", "Garlic", "Potato", "Lettuce"] },
+  { date: "2025-07-11", vegetables: ["Carrot", "Broccoli", "Spinach", "Tomato", "Cucumber", "Pepper", "Onion", "Garlic", "Potato", "Lettuce"] },
+  { date: "2025-07-11", vegetables: ["Carrot", "Broccoli", "Spinach", "Tomato", "Cucumber", "Pepper", "Onion", "Garlic", "Potato", "Lettuce"] },
+  { date: "2025-07-11", vegetables: ["Carrot", "Broccoli", "Spinach", "Tomato", "Cucumber", "Pepper", "Onion", "Garlic", "Potato", "Lettuce"] },
+  { date: "2025-07-11", vegetables: ["Carrot", "Broccoli", "Spinach", "Tomato", "Cucumber", "Pepper", "Onion", "Garlic", "Potato", "Lettuce"] },
   { date: "2025-07-10", vegetables: ["Apple", "Banana", "Orange", "Grape", "Strawberry", "Blueberry", "Raspberry", "Blackberry", "Cherry", "Pineapple"] },
 ];
 
