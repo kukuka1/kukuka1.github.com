@@ -1,6 +1,6 @@
 {
-    "name": "Hello World PWA",
-    "short_name": "Hello PWA",
+    "name": "Veg PWA",
+    "short_name": "Veg PWA",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#ffffff",
