@@ -9,6 +9,46 @@ const defaultLists = [
     main: ["Apple", "Banana", "Orange", "Grape", "Strawberry", "Blueberry", "Raspberry", "Blackberry", "Cherry", "Pineapple"],
     extra: ["Mango", "Kiwi"]
   },
+  {
+    date: "2025-07-10",
+    main: ["Apple", "Banana", "Orange", "Grape", "Strawberry", "Blueberry", "Raspberry", "Blackberry", "Cherry", "Pineapple"],
+    extra: ["Mango", "Kiwi"]
+  },
+  {
+    date: "2025-07-10",
+    main: ["Apple", "Banana", "Orange", "Grape", "Strawberry", "Blueberry", "Raspberry", "Blackberry", "Cherry", "Pineapple"],
+    extra: ["Mango", "Kiwi"]
+  },
+  {
+    date: "2025-07-10",
+    main: ["Apple", "Banana", "Orange", "Grape", "Strawberry", "Blueberry", "Raspberry", "Blackberry", "Cherry", "Pineapple"],
+    extra: ["Mango", "Kiwi"]
+  },
+  {
+    date: "2025-07-10",
+    main: ["Apple", "Banana", "Orange", "Grape", "Strawberry", "Blueberry", "Raspberry", "Blackberry", "Cherry", "Pineapple"],
+    extra: ["Mango", "Kiwi"]
+  },
+  {
+    date: "2025-07-10",
+    main: ["Apple", "Banana", "Orange", "Grape", "Strawberry", "Blueberry", "Raspberry", "Blackberry", "Cherry", "Pineapple"],
+    extra: ["Mango", "Kiwi"]
+  },
+  {
+    date: "2025-07-10",
+    main: ["Apple", "Banana", "Orange", "Grape", "Strawberry", "Blueberry", "Raspberry", "Blackberry", "Cherry", "Pineapple"],
+    extra: ["Mango", "Kiwi"]
+  },
+  {
+    date: "2025-07-10",
+    main: ["Apple", "Banana", "Orange", "Grape", "Strawberry", "Blueberry", "Raspberry", "Blackberry", "Cherry", "Pineapple"],
+    extra: ["Mango", "Kiwi"]
+  },
+  {
+    date: "2025-07-10",
+    main: ["Apple", "Banana", "Orange", "Grape", "Strawberry", "Blueberry", "Raspberry", "Blackberry", "Cherry", "Pineapple"],
+    extra: ["Mango", "Kiwi"]
+  },
 ];
 
 const globalVegList = [
