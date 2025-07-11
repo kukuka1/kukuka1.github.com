@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vegetable-lists-pwa-v3';
+const CACHE_NAME = 'vegetable-lists-pwa-v1';
 const urlsToCache = [
   '/',
   '/index.html',
@@ -30,8 +30,19 @@ self.addEventListener('activate', event => {
   self.clients.claim();
 });
 
-self.addEventListener("fetch", event => {
+self.addEventListener('fetch', event => {
   event.respondWith(
-    fetch(event.request).catch(() => caches.match(event.request))
+    fetch(event.request)
+      .then(networkResponse => {
+        // Если сетевой запрос успешен, обновляем кэш
+        return caches.open(CACHE_NAME).then(cache => {
+          cache.put(event.request, networkResponse.clone());
+          return networkResponse;
+        });
+      })
+      .catch(() => {
+        // Если сеть недоступна, возвращаем данные из кэша
+        return caches.match(event.request);
+      })
   );
 });
